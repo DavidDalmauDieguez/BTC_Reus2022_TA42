@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="card" style="width: 18rem;" *ngFor="let personaje of tarjetas">
+<img class="card-img-top" src={{personaje.image}} alt="Card image cap">
+<div class="card-body">
+  <h5 class="card-title">{{personaje.name | uppercase}}</h5>
+  <p class="card-title"> Status: {{personaje.status}}</p>
+  <p class="card-title"> Species: {{personaje.species}}</p>
+  <p class="card-title"> Gender: {{personaje.gender}}</p>
+  <p class="card-title"> Origin: {{personaje.origin}}</p>
+  <p class="card-title"> Location: {{personaje.location}}</p>
+</div>
+</div>
+</div>
